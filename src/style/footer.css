@@ -1,0 +1,15 @@
+footer {
+    text-align: center;
+}
+
+#footer-nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+.designs {
+    font-size: .85em;
+}
+
+.icon {
+    font-size: 1.5em;
+}

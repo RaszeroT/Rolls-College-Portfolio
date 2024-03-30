@@ -1,0 +1,13 @@
+#header-nav {
+    text-align: right;
+    margin: 0 2em;
+}
+
+#header-nav ul li {
+    display: inline-block;
+    margin: 0 1em;
+}
+
+#header-nav ul li a {
+    text-decoration: none;
+}

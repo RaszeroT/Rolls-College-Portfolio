@@ -1,0 +1,16 @@
+header {
+    background-color: var();
+}
+
+#logo {
+  width: 4.5em;
+}
+
+#heading {
+  display: flex;
+  width: max-content;
+}
+
+#master-heading {
+    margin: auto;
+}
