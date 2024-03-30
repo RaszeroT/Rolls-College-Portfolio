@@ -5,7 +5,8 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import "./style/header.css";
 import "./style/navBar.css";
-import "./style/footer.css"
+import "./style/footer.css";
+import "./style/aboutMe.css";
 
 // import components
 import Header from "./components/Header";

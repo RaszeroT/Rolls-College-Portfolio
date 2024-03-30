@@ -5,13 +5,19 @@ const NavBar = () => {
     <div id="header-nav">
       <ul>
         <li>
-          <Link>About Me</Link>
+          <Link to={"/"}>About Me</Link>
         </li>
         <li>
-          <Link>Athletics</Link>
+          <Link to={"/track"}>Track</Link>
         </li>
         <li>
-          <Link>Work Experience</Link>
+          <Link to={"/athletics"}>Athletics History</Link>
+        </li>
+        <li>
+          <Link to={"/workexperience"}>Work Experience</Link>
+        </li>
+        <li>
+          <Link to={"/resume"}>Resume</Link>
         </li>
       </ul>
     </div>
