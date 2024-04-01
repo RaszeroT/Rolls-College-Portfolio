@@ -28,6 +28,7 @@ h2 {
 }
 
 @media screen and (max-width: 360px) {
+  
   h2,
   h3 {
     font-size: 0.8em;
@@ -35,5 +36,13 @@ h2 {
 
   p {
     font-size: 0.7em;
+  }
+
+  button {
+    font-size: .65em;
+  }
+
+  a {
+    font-size: .7em;
   }
 }
