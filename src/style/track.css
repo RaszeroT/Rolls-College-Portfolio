@@ -17,20 +17,14 @@
 
 .track {
   text-align: center;
+  text-decoration: un;
 }
 
 .heading {
   margin-left: 2em;
 }
 
-.trackInfoI, .trackInfoII, .trackInfoIII {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.trackInfoI p {
-  width: 75%;
+.trackInfoI  {
   margin: 0.5em;
   padding: 1em;
   border-radius: 3em;
@@ -38,40 +32,39 @@
   
 }
 
-.trackInfoI img {
+.trackInfoI .img-container img {
+  float: right;
   margin: 0.5em;
   height: 300px;
   border-radius: 3em;
 }
 
-.right {
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .trackInfoII .img-container {
-  display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.trackInfoII img {
-  margin: 0.5em;
+.trackInfoII .img-container img {
+  float: left;
+  margin: .75em .5em 0 .5em;
+  padding: 0 0 0 .5em;
   border-radius: 3em;
   height: 300px;
+  background-color: var(--black);
 }
 
-.trackInfoII p {
-  width: 75%;
+.trackInfoII {
   margin: 0.5em;
   padding: 1em;
   border-radius: 30px;
-  background-color: var(--black);
-  color: var(--white);
   box-shadow: 5px 5px 10px var(--black);
 }
+.trackInfoII, .trackInfoII h3, .trackInfoII img, .trackInfoII p {
+  background-color: var(--black);
+  color: var(--white);
+}
 
-.trackInfoIII p {
+.trackInfoIII {
   width: 90%;
   margin: 0.5em;
   padding: 1em;
@@ -86,7 +79,8 @@
 }
 
 .summaryImg-container img {
-  width: 500px;
+  max-width: 500px;
+  width: 80%;
   margin: 1em;
 }
 
