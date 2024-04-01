@@ -1,3 +1,5 @@
+
+
 #logo {
   width: 4.5em;
 }
@@ -9,4 +11,18 @@
 
 #master-heading {
     margin: auto;
+}
+
+@media screen and (max-width: 410px) {
+  #logo {
+    display: none;
+  }
+
+  #heading {
+    font-size: .8em;
+  }
+
+  #master-heading {
+    margin: .25em 0 0 .25em;
+  }
 }

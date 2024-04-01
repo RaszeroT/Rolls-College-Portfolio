@@ -5,6 +5,7 @@ import { Outlet } from "react-router-dom";
 import "./App.css";
 import "./style/header.css";
 import "./style/navBar.css";
+import "./style/dropdownNav.css"
 import "./style/footer.css";
 import "./style/aboutMe.css";
 import "./style/track.css";
