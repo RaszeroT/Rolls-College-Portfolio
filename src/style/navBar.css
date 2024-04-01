@@ -12,6 +12,7 @@
   text-decoration: none;
   padding: 0.1em 0.5em;
   border-radius: 20px;
+  border: 1px solid;
 }
 
 #header-nav ul li a:hover {

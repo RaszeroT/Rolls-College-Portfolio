@@ -2,7 +2,6 @@ import trackImgs from "../jsonData/trackImgData.json";
 import infoData from "../jsonData/infoData.json";
 
 const Track = () => {
-  const imgSize = {};
 
   return (
     <section>
