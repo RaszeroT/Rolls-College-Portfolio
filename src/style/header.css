@@ -13,13 +13,15 @@
     margin: auto;
 }
 
+@media screen and (max-width: 490px) {
+    #heading {
+    font-size: .8em;
+  }
+}
+
 @media screen and (max-width: 410px) {
   #logo {
     display: none;
-  }
-
-  #heading {
-    font-size: .8em;
   }
 
   #master-heading {
