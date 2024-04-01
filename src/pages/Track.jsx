@@ -1,5 +1,5 @@
 import trackImgs from "../jsonData/trackImgData.json";
-import infoData from "../jsonData/trackInfoData.json";
+import infoData from "../jsonData/infoData.json";
 
 const Track = () => {
   const imgSize = {};
@@ -19,7 +19,7 @@ const Track = () => {
         <div className="trackInfo-container">
           <h3 className="heading">Intro:</h3>
           <div className="trackInfoI">
-            <p>{infoData.info}</p>
+            <p>{infoData.trackIntro}</p>
             <div className="img-container">
               <img src="/assets/images/track/track1.jpg" />
             </div>
@@ -29,11 +29,11 @@ const Track = () => {
             <div className="img-container">
               <img src="/assets/images/track/track2.jpg" />
             </div>
-            <p>{infoData.info}</p>
+            <p>{infoData.trackIntro}</p>
           </div>
           <h3 className="heading">Summary:</h3>
           <div className="trackInfoIII">
-            <p>{infoData.info}</p>
+            <p>{infoData.trackIntro}</p>
           </div>
             <div className="summaryImg-container">
               <img src="/assets/images/track/track6.jpg" alt="" />

@@ -1,3 +1,29 @@
-#aboutMe-container {
-    height: 550px;
+.professionalSummary-container {
+  margin: 0 0.5em;
+  border-radius: 30px;
+  padding: 0.75em;
+  box-shadow: 5px 5px 10px white;
+}
+
+.rightImg img {
+  width: 35%;
+  max-width: 300px;
+  float: right;
+  border-radius: 30px;
+  margin: 0.5em 0.5em 0 0.5em;
+}
+
+.aboutMe-container {
+  margin: 1em 0 0.5em 1em;
+  border-radius: 30px;
+  padding: 0.75em;
+  box-shadow: 5px 5px 10px white;
+}
+
+.img-container-left img {
+  float: left;
+  border-radius: 30px;
+  width: 25%;
+  max-width: 200px;
+  margin: 0.5em 0.5em 0 0.5em;
 }

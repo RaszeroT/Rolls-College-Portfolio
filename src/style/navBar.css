@@ -1,13 +1,19 @@
 #header-nav {
-    text-align: right;
-    margin: 0 2em;
+  text-align: right;
+  margin: 0 2em;
 }
 
 #header-nav ul li {
-    display: inline-block;
-    margin: 0 1em;
+  display: inline-block;
+  margin: 0 1em;
 }
 
 #header-nav ul li a {
-    text-decoration: none;
+  text-decoration: none;
+  padding: 0.1em 0.5em;
+  border-radius: 20px;
+}
+
+#header-nav ul li a:hover {
+  box-shadow: 5px 5px 10px var(--black);
 }

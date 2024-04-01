@@ -15,6 +15,10 @@
     background-color: var(--white);
 }
 
+section {
+    margin: .5em 0em;
+}
+
 .quintessential {
     font-family: "Quintessential", serif;
 }
