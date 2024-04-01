@@ -1,28 +1,39 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quintessential&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Quintessential&display=swap");
 
 :root {
-    --black: #3D3B3A;
-    --gold: #AD9551;
-    --white: #D9D9D9;
+  --black: #3d3b3a;
+  --gold: #ad9551;
+  --white: #d9d9d9;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    border: 0;
-    font-family: "Open Sans", sans-serif ;
-    color: var(--black);
-    background-color: var(--white);
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: "Open Sans", sans-serif;
+  color: var(--black);
+  background-color: var(--white);
 }
 
 section {
-    margin: .5em 0em;
+  margin: 0.5em 0em;
 }
 
 .quintessential {
-    font-family: "Quintessential", serif;
+  font-family: "Quintessential", serif;
 }
 
 h2 {
-    text-decoration: underline;
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 360px) {
+  h2,
+  h3 {
+    font-size: 0.8em;
+  }
+
+  p {
+    font-size: 0.7em;
+  }
 }
