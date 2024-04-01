@@ -1,0 +1,103 @@
+.trackImgMotion-container {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.5em 0 1em 0;
+  background-color: var(--black);
+}
+
+.trackImg {
+  display: inline;
+  padding: 0.5em 0 0.25em 0;
+  background-color: var(--black);
+}
+
+.trackImg img {
+  height: 400px;
+}
+
+.track {
+  text-align: center;
+}
+
+.heading {
+  margin-left: 2em;
+}
+
+.trackInfoI, .trackInfoII, .trackInfoIII {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.trackInfoI p {
+  width: 75%;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 3em;
+  box-shadow: 5px 5px 10px white;
+  
+}
+
+.trackInfoI img {
+  margin: 0.5em;
+  height: 300px;
+  border-radius: 3em;
+}
+
+.right {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.trackInfoII .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.trackInfoII img {
+  margin: 0.5em;
+  border-radius: 3em;
+  height: 300px;
+}
+
+.trackInfoII p {
+  width: 75%;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 30px;
+  background-color: var(--black);
+  color: var(--white);
+  box-shadow: 5px 5px 10px white;
+}
+
+.trackInfoIII p {
+  width: 90%;
+  margin: 0.5em;
+  padding: 1em;
+  border-radius: 3em;
+  box-shadow: 5px 5px 10px white;
+}
+
+.summaryImg-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: var(--black);
+}
+
+.summaryImg-container img {
+  width: 500px;
+  margin: 1em;
+}
+
+@media screen and (max-width: 880px) {
+  .trackImg img {
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .trackImg img {
+    height: 300px;
+  }
+}

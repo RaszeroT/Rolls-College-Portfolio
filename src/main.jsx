@@ -8,6 +8,7 @@ import AboutMe from './pages/AboutMe.jsx';
 import Athletics from './pages/Athletics.jsx';
 import WorkExperience from './pages/WorkExperience.jsx';
 import Resume from './pages/Resume.jsx';
+import Track from './pages/Track.jsx';
 
 const router = createBrowserRouter([
   {
@@ -29,6 +30,10 @@ const router = createBrowserRouter([
       {
         path: "resume",
         element: <Resume />
+      },
+      {
+        path: "track",
+        element: <Track />
       }
     ]
   },

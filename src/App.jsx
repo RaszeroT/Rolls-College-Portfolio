@@ -7,6 +7,7 @@ import "./style/header.css";
 import "./style/navBar.css";
 import "./style/footer.css";
 import "./style/aboutMe.css";
+import "./style/track.css";
 
 // import components
 import Header from "./components/Header";
