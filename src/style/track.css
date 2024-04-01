@@ -28,12 +28,10 @@
   padding: 1em;
   border-radius: 3em;
   box-shadow: 5px 5px 10px white;
-  
 }
 
 .trackInfoI .img-container img {
   float: right;
-  margin: 0.5em;
   height: 300px;
   border-radius: 3em;
 }

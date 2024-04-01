@@ -62,7 +62,8 @@ const DropdownNav = () => {
           className="menu-button material-symbols-outlined"
           data-dropdown-button
           onClick={handleDropdownButton}
-        >menu
+        >
+          menu
         </button>
         <div className="dropdown-menu" data-dropdown>
           <ul>
