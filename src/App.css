@@ -22,3 +22,7 @@ section {
 .quintessential {
     font-family: "Quintessential", serif;
 }
+
+h2 {
+    text-decoration: underline;
+}
