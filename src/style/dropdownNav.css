@@ -22,7 +22,7 @@
     position: absolute;
     top: calc(100% + 0.1em);
     width: 175px;
-    right: -500%;
+    right: 100%;
     transform: translateX(-50%);
     padding: 0.5em;
     margin: 0.5em;
@@ -37,7 +37,7 @@
 
   .dropdown.active > .menu-button + .dropdown-menu {
     opacity: 1;
-    transform: translateY(0) translateX(-50%);
+    transform: translateY(0) translateX(-5%);
     pointer-events: auto;
   }
 }
