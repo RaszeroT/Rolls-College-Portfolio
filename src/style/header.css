@@ -7,10 +7,8 @@
 #heading {
   display: flex;
   width: max-content;
-}
-
-#master-heading {
-    margin: auto;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 490px) {
