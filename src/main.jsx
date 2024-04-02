@@ -6,7 +6,6 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import App from './App.jsx'
 import AboutMe from './pages/AboutMe.jsx';
 import Athletics from './pages/Athletics.jsx';
-import WorkExperience from './pages/WorkExperience.jsx';
 import Resume from './pages/Resume.jsx';
 import Track from './pages/Track.jsx';
 
@@ -22,10 +21,6 @@ const router = createBrowserRouter([
       {
         path: "athletics",
         element: <Athletics />
-      },
-      {
-        path: "workexperience",
-        element: <WorkExperience />
       },
       {
         path: "resume",

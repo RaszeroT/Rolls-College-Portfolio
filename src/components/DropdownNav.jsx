@@ -83,11 +83,6 @@ const DropdownNav = () => {
               </Link>
             </li>
             <li>
-              <Link to={"/workexperience"} onClick={handleMenuItemClick}>
-                Work Experience
-              </Link>
-            </li>
-            <li>
               <Link to={"/resume"} onClick={handleMenuItemClick}>
                 Resume
               </Link>

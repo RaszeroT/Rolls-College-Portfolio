@@ -18,9 +18,6 @@ const NavBar = () => {
             <Link to={"/athletics"}>Athletics History</Link>
           </li>
           <li>
-            <Link to={"/workexperience"}>Work Experience</Link>
-          </li>
-          <li>
             <Link to={"/resume"}>Resume</Link>
           </li>
         </ul>
