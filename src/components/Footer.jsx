@@ -1,13 +1,13 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
-  faGithub,
+  faTwitter,
   faLinkedin,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
 
 const Footer = () => {
   const socialIcons = {
-    githubIcon: faGithub,
+    twitterIcon: faTwitter,
     linkedinIcon: faLinkedin,
     instagramIcon: faInstagram,
   };
@@ -22,7 +22,7 @@ const Footer = () => {
           <li>
             <a href="#">
               <span className="icon">
-                <FontAwesomeIcon icon={socialIcons.linkedinIcon} />
+                <FontAwesomeIcon icon={socialIcons.twitterIcon} />
               </span>
             </a>
           </li>
@@ -38,10 +38,10 @@ const Footer = () => {
       <div className="designs">
         <p>
           <span className="copy">
-            &copy;2024{" "}
-            <a href="https://www.shanhun-codes.com">Shanhun-codes.com</a>
+            &copy;2024
+            <a href="https://www.shanhun-codes.com">Shanhun-Codes.com</a>
             <br />
-          </span>{" "}
+          </span>
           All Rights Reserved
         </p>
       </div>
