@@ -22,7 +22,7 @@ const NavBar = () => {
   }, [width]);
   return (
     <div id="header-nav">
-      {window.innerWidth <= 740 ? (
+      {window.innerWidth <= 1000 ? (
         <DropdownNav />
       ) : (
         <ul>
