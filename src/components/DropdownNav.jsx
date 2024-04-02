@@ -4,23 +4,6 @@ import { useState, useEffect } from "react";
 const DropdownNav = () => {
   // set useState
   const [isDropdownActive, setDropdownActive] = useState(false);
-  const [width, setWidth] = useState(window.innerWidth);
-
-  // useEffect to force page reload when device width changes - makes it so when mobile devices are rotated to wider mode changes for device width take effect
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth !== width) {
-        setWidth(window.innerWidth);
-        window.location.reload();
-      }
-    };
-
-    window.addEventListener("resize", handleResize);
-
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
-  }, [width]);
 
   // makes menu button dropdown take effect
   const handleDropdownButton = (e) => {
