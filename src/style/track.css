@@ -101,10 +101,21 @@
   .trackImg img {
     height: 200px;
   }
+
+
+  
 }
 
 @media screen and (max-width: 440px) {
   .trackImg img {
     height: 150px;
+  }
+
+  .trackInfoI .img-container img {
+    height: 200px;
+  }
+
+  .trackInfoII .img-container img {
+    height: 200px;
   }
 }
