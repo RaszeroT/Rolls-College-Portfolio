@@ -38,7 +38,7 @@ const Footer = () => {
       <div className="designs">
         <p>
           <span className="copy">
-            &copy;2024
+            &copy;2024 <span></span>
             <a href="https://www.shanhun-codes.com">Shanhun-Codes.com</a>
             <br />
           </span>
