@@ -67,7 +67,7 @@ const DropdownNav = () => {
             </li>
             <li>
               <Link to={"/resume"} onClick={handleMenuItemClick}>
-                Resume
+                Resumé
               </Link>
             </li>
           </ul>
